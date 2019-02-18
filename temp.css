@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("mrmen1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: top center;
+}
+.buttons {
+  position: absolute;
+  top: 61.3%;
+  left: 32.2%;
+  display: flex;
+  color: navy;
+  font-size: 30px;
+
+}
+
+.letter {
+  padding-left: 28px;
+  padding-right: 28px;
+ height: 20px;
+
+}
+#zKey {
+  padding-left: 28px;
+  background-color: lightblue;
+border-radius: 30px;
+}
+#xKey {
+  padding-left: 29px;
+}
+#cKey {
+  padding-left: 25.7px;
+
+}
+#vKey {
+  margin-left: 0px;
+}
+#bKey {
+  padding-left: 28px;
+}
+#nKey {
+  padding-left: 27px;
+}
+#mKey {
+  padding-left: 24.8px;
+}
+#spaceBar {
+ position: absolute;
+ top: 42%;
+ left: 43.53%;
+}
+#spaceBar img {
+height: auto; 
+ width: auto; 
+ max-width: 144px; 
+ max-height: 70px;
+}
+
+@media all and (max-width:1000px) {
+  
+
+}
+
+@media all and (max-width:500px) {
+  
+
+}
